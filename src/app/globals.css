@@ -2,4 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :root {
+        --color-primary: 255 115 179;
+        --color-secondary: 111 114 185;
+        --rounded-full: 9999px
+      }
+}
+
+.article ul {
+    list-style-type: decimal;
+    margin: 1em;
+    padding: 1em;
+}
+
+.article ol {
+    list-style-type: decimal;
+    margin: 1em;
+    padding: 1em;
+}
+
+.article .author-picture {
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: var(--rounded-full);
+}
+
+.article p {
+
+}
+
+
+.article li {
+    list-style-type: decimal;
+    border-bottom:1px solid #fff;
+}
+
+.article h1 {
+
+}
+
+.article h2 {
+
+}
+
+
 

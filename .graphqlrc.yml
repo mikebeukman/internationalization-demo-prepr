@@ -1,0 +1,13 @@
+overwrite: true
+schema: https://graphql.prepr.io/${PREPR_ACCESS_TOKEN}
+documents: "src/queries/*.ts"
+generates:
+  src/lib/prepr/schema/generatedTypes.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+  src/lib/prepr/schema/introspection.json:
+    plugins:
+      - "fragment-matcher"
+    config:
+      minify: true

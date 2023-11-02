@@ -1,0 +1,64 @@
+{
+  "possibleTypes": {
+    "AllModels": [
+      "About",
+      "AppConfig",
+      "Article",
+      "CallToAction",
+      "Category",
+      "LiveEvent",
+      "MenuItem",
+      "Navigation",
+      "Page",
+      "Person"
+    ],
+    "Component": [
+      "ArticleCollection",
+      "ImageAndText",
+      "PageHeader",
+      "ProductCollection",
+      "SEO"
+    ],
+    "Model": [
+      "About",
+      "AppConfig",
+      "Article",
+      "CallToAction",
+      "Category",
+      "LiveEvent",
+      "MenuItem",
+      "Navigation",
+      "Page",
+      "Person"
+    ],
+    "Page_Stack": [
+      "ArticleCollection",
+      "ImageAndText",
+      "PageHeader",
+      "ProductCollection"
+    ],
+    "_prepr_types": [
+      "ApplePodcast",
+      "ArticleCollection",
+      "Assets",
+      "Coordinates",
+      "FacebookPost",
+      "ImageAndText",
+      "InstagramPost",
+      "NavigationItem",
+      "PageHeader",
+      "PreprExampleShopCollection",
+      "ProductCollection",
+      "Quote",
+      "Resource",
+      "SEO",
+      "SoundCloudPost",
+      "SpotifyPlaylist",
+      "Text",
+      "TikTokPost",
+      "TwitterPost",
+      "VimeoPost",
+      "YouTubePost"
+    ]
+  }
+}
